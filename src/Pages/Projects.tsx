@@ -44,7 +44,7 @@ const Projects = () => {
               title="Portfolio Website" 
               description="The website you're currently browsing! Designed and built to showcase my career, skills, and projects." 
               techStack={["Typescript", "React", "NextJS", "ThreeJS", "TailwindCSS"]}
-              githubLink="https://github.com/Arafat04H09/PortfolioWebsite"
+              githubLink="https://github.com/Arafat04H09/Portfolio"
             />
           </div>
         </div>
