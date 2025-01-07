@@ -14,6 +14,10 @@ function App() {
       <Discord /> 
       <Projects />
       <Experience />
+      <footer className="mt-auto text-center text-sm text-gray-500 ">
+        Built by <span className="font-bold">Arafat</span> ©<br />
+        Design inspired by <a href="https://www.xuolynn.net/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">xuo</a>
+      </footer>
     </div>
   );
 }

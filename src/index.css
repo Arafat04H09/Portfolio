@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Inter:wght@400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,89 +6,63 @@
 
 @layer base {
     :root {
-      background: linear-gradient(90deg, rgb(0, 0, 0), rgb(100, 100, 100));
-      background-size: 200% 200%;
-      animation: bilinear-gradient 5s infinite alternate;
+        background: linear-gradient(90deg, rgb(0, 0, 0), rgb(100, 100, 100));
+        background-size: 200% 200%;
+        animation: bilinear-gradient 5s infinite alternate;
     }
-  }
-  
-  @keyframes bilinear-gradient {
+}
+
+@keyframes bilinear-gradient {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
     100% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
-  }
-  
-  body {
+}
+
+body {
+    font-family: 'Inter', sans-serif;
     transform-origin: top left;
     height: auto;
     overflow-x: hidden;
     overflow-y: auto;
-  }
-  
-  html {
+    font-size: 13px;
+}
+
+html {
     scroll-behavior: smooth;
-  }
+}
 
-  body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 8px;
-  }
+}
 
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: gray;
     border-radius: 10px;
-  }
+}
 
-  body::-webkit-scrollbar-thumb {
-    background: black; 
-    border-radius: 10px;
-  }
-
-  body::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb {
     background: black;
-  }
+    border-radius: 10px;
+}
 
-  @keyframes fadeIn {
+body::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+@keyframes fadeIn {
     from {
-      opacity: 0;
-      transform: scale(0.9);
+        opacity: 0;
+        transform: scale(0.9);
     }
     to {
-      opacity: 1;
-      transform: scale(1);
+        opacity: 1;
+        transform: scale(1);
     }
-  }
+}
 
-  .animate-fadeIn {
+.animate-fadeIn {
     animation: fadeIn 0.3s ease-out;
-  }
-
-  @font-face {
-    font-family: 'Gg Sans';
-    src: url('/gg-sans-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Gg Sans';
-    src: url('/gg-sans-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Gg Sans';
-    src: url('/gg-sans-italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Gg Sans';
-    src: url('/gg-sans-bolditalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-  }
+}
