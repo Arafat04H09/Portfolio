@@ -59,8 +59,9 @@ const ThreeModel = () => {
         camera.lookAt(0, 0, 0);
     
         gltf.scene.traverse((child) => {
-          if (child.isMesh) {
-            child.material = new THREE.MeshBasicMaterial({
+          if ((child as THREE.Mesh).isMesh) {
+            const mesh = child as THREE.Mesh;
+            mesh.material = new THREE.MeshBasicMaterial({
               color: 0xffffff, 
               wireframe: true,
             });
