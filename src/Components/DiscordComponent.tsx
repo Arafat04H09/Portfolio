@@ -135,7 +135,7 @@ const DiscordComponent: React.FC = () => {
                                             </p>
                                             <br />
                                             <p className="text-slate-300">
-                                            Outside of coding, my hobbies include biking, walking, hiking, rock climbing, and listening to music. I’m always open to exploring new interests and trying new things. I enjoy conversations about anything from coding and tech to philosophy, music, or just life in general. If anything here resonates with you, don’t hesitate to reach out—I’d love to connect!
+                                            Outside of coding, my hobbies include biking, walking, hiking, rock climbing, and listening to music. I’m always open to exploring new interests and trying new things. I enjoy conversations about anything from coding and tech to philosophy, music, or just life in general. If anything here resonates with you, don’t hesitate to reach out using the message button above or through LinkedIn — I’d love to connect!
                                             </p>
                                             <div className="mt-4">
                                             <h2 className="text-white pb-2">Languages</h2>
