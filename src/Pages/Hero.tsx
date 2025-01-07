@@ -1,6 +1,6 @@
 import Shapes from '../Components/Shapes';
 import Intro from '../Components/Intro';
-import FadeIn from 'react-fade-in';
+import FadeIn from '../Components/FadeIn';
 import Socials from '../Components/Socials';
 
 const Hero = () => {
