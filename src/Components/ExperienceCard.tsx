@@ -30,7 +30,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ title, organization, pe
     >
       <h3 className="text-white text-xl font-bold">{title}</h3>
       <p className="text-gray-400 text-base italic">{organization} | {period}</p>
-      <ul className="list-disc list-inside text-gray-300 text-base mt-3 space-y-2">
+      <ul className="list-disc list-inside text-gray-300 text-lg mt-3 space-y-2">
         {responsibilities.map((item, index) => (
           <li key={index}>{item}</li>
         ))}

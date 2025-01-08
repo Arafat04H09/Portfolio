@@ -20,9 +20,9 @@ const Experiences = () => {
               organization="Stony Brook University Residential Safety Program"
               period="August 2021 – May 2023"
               responsibilities={[
-                "Improved shift management execution speed by 25% by designing Python scripts to automate backend processes for an organization serving a community of 10,000+ students.",
-                "Integrated Google Sheets API to dynamically allocate resources and track productivity, reducing errors in scheduling and improving operational efficiency.",
-                "Participated in bi-weekly scrum meetings, leveraging Agile methodologies to monitor 300+ employees and improve resource management during campus-wide safety operations.",
+                "Developed Python automation scripts for patrol monitoring and incident tracking, reducing response times by 25% for 300+ safety personnel.",
+                "Built real-time operations dashboard using Google Sheets API and SQL, processing 500+ daily patrol metrics and improving resource allocation by 30%.",
+                "Implemented incident management system for concurrent patrol routes, reducing incident resolution time by 40% through automated dispatching.",
               ]}
             />
           </div>
