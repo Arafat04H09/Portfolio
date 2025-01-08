@@ -22,7 +22,7 @@ const Experiences = () => {
               responsibilities={[
                 "Developed Python automation scripts for patrol monitoring and incident tracking, reducing response times by 25% for 300+ safety personnel.",
                 "Built real-time operations dashboard using Google Sheets API and SQL, processing 500+ daily patrol metrics and improving resource allocation by 30%.",
-                "Implemented incident management system for concurrent patrol routes, reducing incident resolution time by 40% through automated dispatching.",
+                "Implemented incident management system for concurrent patrol routes, reducing incident resolution time by 40% through efficient dispatching.",
               ]}
             />
           </div>
