@@ -16,7 +16,7 @@ const Experiences = () => {
           </h2>
           <div className="flex flex-col gap-8 pb-10">
             <ExperienceCard
-              title="Operation Engineer"
+              title="Shift Administrator"
               organization="Stony Brook University Residential Safety Program"
               period="August 2021 – May 2023"
               responsibilities={[
