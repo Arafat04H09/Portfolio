@@ -17,7 +17,7 @@ const Experiences = () => {
           <div className="flex flex-col gap-8 pb-10">
             <ExperienceCard
               title="Software Engineer"
-              organization="Stony Brook University Residential Safety Program"
+              organization="JPMorgan Chase & Co."
               period="April 2025 – Current"
               responsibilities={[
                 "Prevented pipeline storage issues by automating Jenkins cleanup, removing 80% of outdated builds.",
