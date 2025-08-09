@@ -16,13 +16,14 @@ const Experiences = () => {
           </h2>
           <div className="flex flex-col gap-8 pb-10">
             <ExperienceCard
-              title="Shift Administrator"
+              title="Software Engineer"
               organization="Stony Brook University Residential Safety Program"
-              period="August 2021 – May 2023"
+              period="April 2025 – Current"
               responsibilities={[
-                "Developed Python automation scripts for patrol monitoring and incident tracking, reducing response times by 25% for 300+ safety personnel.",
-                "Built real-time operations dashboard using Google Sheets API and SQL, processing 500+ daily patrol metrics and improving resource allocation by 30%.",
-                "Implemented incident management system for concurrent patrol routes, reducing incident resolution time by 40% through efficient dispatching.",
+                "Prevented pipeline storage issues by automating Jenkins cleanup, removing 80% of outdated builds.",
+                "Closed critical security gaps by automating vulnerability PR tracking through Bitbucket–Jira integration.",
+                "Restored uptime monitoring to 100% by fixing 40+ AWS CloudWatch canaries for critical endpoints.",
+                "Enhanced incident prevention by transforming failed monitoring into a fully operational early-warning system."
               ]}
             />
           </div>
