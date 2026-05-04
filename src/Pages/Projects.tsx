@@ -14,6 +14,7 @@ const Projects = () => {
               title="Praxis"
               description="Full-stack offline-first vocabulary learning app with FSRS-6 spaced repetition, 4,000+ word corpus, and AI-generated exercises across 3 CEFR proficiency tiers."
               techStack={["TypeScript", "Next.js", "React", "sql.js", "Supabase", "Stripe"]}
+              githubLink="https://praxis-v2-clean-web.vercel.app"
             />
             <Project
               title="Brain-Train"
