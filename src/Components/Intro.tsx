@@ -20,7 +20,7 @@ const Intro = () => {
       <br/>
         <div className='text-center text- sm:text-2xl md:text-2xl text-slate-300'>
         <p className="mb-2">I'm a Software Engineer based in New York City.</p>
-        <p className="mb-2">I currently work at <strong className="text-white">JPMorgan Chase.</strong></p>
+        <p className="mb-2">Previously at <strong className="text-white">JPMorgan Chase.</strong></p>
       </div>
       
       <ScrollIndicator targetId="discord" />

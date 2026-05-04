@@ -10,41 +10,40 @@ const Projects = () => {
             / projects
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-8">
-            <Project 
-              title="Political Penguin" 
-              description="A platform providing insights into political trends using sentiment analysis on tweets and other data sources." 
+            <Project
+              title="Praxis"
+              description="Full-stack offline-first vocabulary learning app with FSRS-6 spaced repetition, 4,000+ word corpus, and AI-generated exercises across 3 CEFR proficiency tiers."
+              techStack={["TypeScript", "Next.js", "React", "sql.js", "Supabase", "Stripe"]}
+            />
+            <Project
+              title="Brain-Train"
+              description="Evidence-based cognitive training suite with 5 modules, adaptive difficulty algorithms (QUEST, CUSUM, d-prime), and transfer assessment battery."
+              techStack={["TypeScript", "React", "Vite", "Tailwind"]}
+              githubLink="https://github.com/Arafat04H09/brain-train"
+            />
+            <Project
+              title="Pare Engine"
+              description="B2B SaaS platform auditing how AI systems perceive businesses. Scores across 5 pillars with multi-stage audit pipeline and PDF report generation."
+              techStack={["TypeScript", "Next.js", "PostgreSQL", "Drizzle", "Inngest", "Stripe"]}
+              githubLink="https://github.com/Arafat04H09/pare-engine"
+            />
+            <Project
+              title="Political Penguin"
+              description="Redistricting analysis platform with 30K+ plans in MongoDB, optimized RESTful APIs, and React dashboard for researchers."
               techStack={["React", "Java Spring", "Python", "MongoDB"]}
               githubLink="https://github.com/Arafat04H09/PoliticalPenguin"
             />
-            <Project 
-              title="SyncFM" 
-              description="A Discord bot that allows users to view and interact with their listening statistics. Inspired by Spotify Wrapped." 
-              techStack={["Python", "Discord API", "Spotify API", "AWS"]}
-              githubLink="https://github.com/Arafat04H09/SyncFM"
-            />
-            <Project 
-              title="CodeHelp.io" 
-              description="A lightweight website for users to ask programming-related questions, share solutions, and explore a collaborative Q&A community." 
-              techStack={["Node", "React", "Express", "Axios", "HTML", "CSS", "JavaScript", "MongoDB"]}
+            <Project
+              title="CodeHelp.io"
+              description="Programming Q&A community with React frontend, Express backend, and MongoDB. RESTful API with search, voting, and authentication."
+              techStack={["Node", "React", "Express", "MongoDB"]}
               githubLink="https://github.com/Arafat04H09/CodeHelp.io"
             />
-            <Project 
-              title="DaemonTracker" 
-              description="A low-level tool for process tracking and management. Created as a foundational systems project." 
-              techStack={["C"]}
+            <Project
+              title="DaemonTracker"
+              description="Low-level daemon process manager handling lifecycle, logging, and monitoring using pipes, signals, and IPC in C."
+              techStack={["C", "Unix", "IPC", "Signals"]}
               githubLink="https://github.com/Arafat04H09/DaemonTracker"
-            />
-            <Project 
-              title="Memory Allocator" 
-              description="A custom memory allocator designed to replicate the functionality of `malloc` and `free` in C, with optimized performance." 
-              techStack={["C"]}
-              githubLink="https://github.com/Arafat04H09/MemoryAllocator"
-            />
-            <Project 
-              title="Portfolio Website" 
-              description="The website you're currently browsing! Designed and built to showcase my career, skills, and projects." 
-              techStack={["Typescript", "React", "NextJS", "ThreeJS", "TailwindCSS"]}
-              githubLink="https://github.com/Arafat04H09/Portfolio"
             />
           </div>
         </div>

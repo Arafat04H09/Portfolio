@@ -58,7 +58,10 @@ const Lanyard: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   if (!import.meta.env.VITE_LANYARD_API_KEY) {
-    throw new Error('Lanyard API key is not defined in the environment variables');
+    return <div className="bg-black bg-opacity-30 p-2 rounded-lg mb-2 flex flex-col items-center justify-center">
+      <p className="text-white text-sm mb-2">Arafat is currently away.</p>
+      <img src="/berightback.jpg" alt="Away" className="w-full h-auto" />
+    </div>;
   }
 
   useEffect(() => {

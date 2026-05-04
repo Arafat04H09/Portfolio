@@ -130,23 +130,20 @@ const DiscordComponent: React.FC = () => {
                                 >
                                     {activeSection === 'about' && (
                                         <div>
-                                            <p className="text-slate-300">
-                                            I'm a recent computer science graduate from <strong style={{ color: '#FF0000' }}>Stony Brook University</strong> with a strong passion for coding and working with large systems.
-                                            </p>
+                                            <p className="text-slate-300">Software Engineer with experience in site reliability and application development at <span className="font-bold text-red-500">JPMorgan Chase</span>. CS graduate from <span className="font-bold text-red-500">Stony Brook University</span>.</p>
                                             <br />
-                                            <p className="text-slate-300">
-                                            Outside of coding, my hobbies include biking, walking, hiking, rock climbing, and listening to music. I’m always open to exploring new interests and trying new things. I enjoy conversations about anything from coding and tech to philosophy, music, or just life in general. If anything here resonates with you, don’t hesitate to reach out using the message button above or through LinkedIn — I’d love to connect!
-                                            </p>
+                                            <p className="text-slate-300">I build full-stack applications, monitoring infrastructure, and developer tools. Outside of coding, I like biking, rock climbing, and music. Always open to connecting.</p>
                                             <div className="mt-4">
                                             <h2 className="text-white pb-2">Languages</h2>
                                             <div className="flex flex-wrap gap-1">
                                                 {[
                                                 { name: 'TypeScript', color: '#3178c6' },
-                                                { name: 'Python', color: '#306998' },
-                                                { name: 'C', color: '#61dafb' },
-                                                { name: 'JavaScript', color: '#f5820d' },
                                                 { name: 'Java', color: '#4285f4' },
-                                                { name: 'SQL', color: '#4479a1' }
+                                                { name: 'Python', color: '#306998' },
+                                                { name: 'JavaScript', color: '#f5820d' },
+                                                { name: 'SQL', color: '#4479a1' },
+                                                { name: 'Rust', color: '#dea584' },
+                                                { name: 'C', color: '#61dafb' }
                                                 ].map(skill => (
                                                 <span key={skill.name} className="flex items-center justify-center bg-slate-800 bg-opacity-50 px-2 py-0.5 rounded-md">
                                                     <span className="w-2.5 h-2.5 rounded-full mr-1" style={{ backgroundColor: skill.color }}></span>

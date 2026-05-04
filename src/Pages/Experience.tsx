@@ -18,12 +18,25 @@ const Experiences = () => {
             <ExperienceCard
               title="Software Engineer"
               organization="JPMorgan Chase & Co."
-              period="April 2025 – Current"
+              period="April 2025 – April 2026"
               responsibilities={[
-                "Prevented pipeline storage issues by automating Jenkins cleanup, removing 80% of outdated builds.",
-                "Closed critical security gaps by automating vulnerability PR tracking through Bitbucket–Jira integration.",
-                "Restored uptime monitoring to 100% by fixing 40+ AWS CloudWatch canaries for critical endpoints.",
-                "Enhanced incident prevention by transforming failed monitoring into a fully operational early-warning system."
+                "Remediated 40+ misconfigured AWS CloudWatch canaries, restoring 100% uptime monitoring and reducing false-positive alerts by ~55%.",
+                "Automated Jenkins pipeline cleanup across ~40 repositories, removing 80% of stale builds and reclaiming ~750 GB of storage.",
+                "Engineered a Bitbucket-Jira integration automating vulnerability tracking for 6 teams, cutting manual triage by ~85%.",
+                "Configured BlazeMeter regression testing across ~40 repos, establishing the team's first automated performance baselines.",
+                "Developed 30+ Java Spring API endpoints for a data visualization platform serving ~200 business analysts.",
+                "Integrated 2 external data services with 15+ custom configurations including schema mappings, auth flows, and validation rules.",
+                "Authored ~200 unit and integration tests, maintaining ~80% coverage on owned modules."
+              ]}
+            />
+            <ExperienceCard
+              title="Shift Administrator"
+              organization="Stony Brook University Residential Safety Program"
+              period="September 2021 – March 2023"
+              responsibilities={[
+                "Automated patrol and incident tracking with Python scripts across 300+ personnel, reducing response times by 25%.",
+                "Created a Google Sheets API + SQL dashboard processing 500+ daily metrics, improving resource allocation by 30%.",
+                "Developed an incident management system for patrol routes, reducing resolution time by 40%."
               ]}
             />
           </div>
