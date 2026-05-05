@@ -35,10 +35,10 @@ const Projects = () => {
               githubLink="https://github.com/Arafat04H09/PoliticalPenguin"
             />
             <Project
-              title="CodeHelp.io"
-              description="Programming Q&A community with React frontend, Express backend, and MongoDB. RESTful API with search, voting, and authentication."
-              techStack={["Node", "React", "Express", "MongoDB"]}
-              githubLink="https://github.com/Arafat04H09/CodeHelp.io"
+              title="Music Recap"
+              description="Music analytics platform processing 341K+ Spotify plays through a 22-module Python pipeline with K-means clustering, NLP, and 102 Svelte visualizations."
+              techStack={["Python", "Svelte", "D3.js", "SQLite", "scikit-learn"]}
+              githubLink="https://github.com/Arafat04H09/music-recap"
             />
             <Project
               title="DaemonTracker"
